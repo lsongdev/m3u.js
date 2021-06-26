@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "description": "my awesome npm package",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Lsong",
+  "license": "MIT"
+}
