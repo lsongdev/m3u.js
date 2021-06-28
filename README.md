@@ -1,17 +1,17 @@
-## myapp
+## m3u
 
-> my awesome npm package
+> Parse m3u playlist
 
 ### Installation
 
 ```bash
-$ npm install myapp
+$ npm install extm3u --save
 ```
 
 ### Example
 
 ```js
-const myapp = require('myapp');
+const m3u = require('extm3u');
 
 // your code here
 

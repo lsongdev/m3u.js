@@ -1,3 +1,7 @@
-const myapp = require('..');
+import * as m3u from '../index.js';
 
-console.log(myapp);
+
+(async () => {
+  const result = await m3u.parseFile('example/sample.m3u', 'utf8');
+  console.log(JSON.stringify(result, null, 2));
+})();

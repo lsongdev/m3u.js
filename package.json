@@ -1,12 +1,28 @@
 {
-  "name": "myapp",
-  "version": "0.0.0",
-  "description": "my awesome npm package",
+  "name": "extm3u",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Parse m3u playlist",
   "main": "index.js",
-  "bin": "./bin/index.js",
+  "bin": {
+    "m3u-parser": "bin/m3u.js"
+  },
   "scripts": {
     "test": "node test"
   },
   "author": "Lsong",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/m3u.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/m3u.js/issues"
+  },
+  "homepage": "https://github.com/song940/m3u.js#readme"
 }
